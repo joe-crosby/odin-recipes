@@ -1,0 +1,50 @@
+html, body, h1 {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+}
+
+.gretchen-fuemen {
+  font-family: 'Grechen Fuemen', cursive, sans-serif;
+}
+
+.page-container {
+  display: table;
+  margin: 0 auto;
+}
+
+.main.page-container {
+  padding-top: 40vh;
+}
+
+.background {
+  background: radial-gradient(circle, #FF4568, rgb(150, 255, 136));
+}
+
+.recipe-background {
+  background: radial-gradient(circle, rgb(150, 255, 136), rgb(152, 176, 206));
+}
+
+#recipe-list {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.recipe-list {
+  list-style: none;
+}
+
+.recipe-list a {
+  text-decoration: none;
+  font-family: 'Grechen Fuemen', cursive, sans-serif;
+  font-size: 20px;
+  color: #15FF58;
+}
+
+.recipe-list a:hover {
+  color: rgb(152, 176, 206);
+}
