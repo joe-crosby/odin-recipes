@@ -1,50 +1,92 @@
-html, body, h1 {
+@import url('https://fonts.googleapis.com/css2?family=Grechen+Fuemen&display=swap');
+
+html, body {
   margin: 0;
   padding: 0;
 }
 
-body {
-  height: 100vh;
-  width: 100vw;
-}
-
-.gretchen-fuemen {
+h1, h2, h3, h4, h5, h6 {
   font-family: 'Grechen Fuemen', cursive, sans-serif;
 }
 
-.page-container {
-  display: table;
-  margin: 0 auto;
+h1, h2 {
+  text-align: center;
+}
+
+h2, h3, h4, h5, h6 {
+  text-decoration: underline;
+}
+
+body {
+  height: 100vh;
+  width: 99vw;
+  padding-bottom: 10em;
 }
 
 .main.page-container {
   padding-top: 40vh;
 }
 
-.background {
-  background: radial-gradient(circle, #FF4568, rgb(150, 255, 136));
+.main .header {
+  font-family: 'Grechen Fuemen', cursive, sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
-.recipe-background {
+.background {
   background: radial-gradient(circle, rgb(150, 255, 136), rgb(152, 176, 206));
 }
 
+.page-container {
+  display: table;
+  margin: 0 auto;
+  max-width: 50%;
+}
+
+.page-header {
+  width: 98%;
+  margin: .5em;
+  text-align: right;
+}
+
+a {
+  text-decoration: none;
+  font-family: 'Grechen Fuemen', cursive, sans-serif;
+}
+
+.page-header a{
+  color: #005898;
+  font-size: 20px;
+}
+
+.page-header a:not(:last-child){
+  padding-right: 15px;
+}
+
 #recipe-list {
-  width: 70%;
+  width: 75%;
   margin: 0 auto;
 }
 
-.recipe-list {
+.recipe-list a {
+  font-size: 25px;
+  color: rgb(152, 176, 206);
+}
+
+a:hover {
+  color: #ffff98;
+}
+
+ul {
   list-style: none;
 }
 
-.recipe-list a {
-  text-decoration: none;
-  font-family: 'Grechen Fuemen', cursive, sans-serif;
-  font-size: 20px;
-  color: #15FF58;
+ol li {
+  padding: .2em; /* It is easier to read directions with space.*/
 }
 
-.recipe-list a:hover {
-  color: rgb(152, 176, 206);
+img {
+  max-height: 30em;
+  display: block;
+  margin: 0 auto;
 }
