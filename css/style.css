@@ -86,7 +86,8 @@ ol li {
 }
 
 img {
-  max-height: 30em;
+  height: auto;
+  max-width: 30em;
   display: block;
   margin: 0 auto;
 }
